@@ -19,6 +19,9 @@ UI非依存：UIは，システムのほかの部分を変更することなく�
 
 ## sampleの実行
 
+npm i readline
+npm i process
+
 tsc sample.ts
 node sample.js
 
