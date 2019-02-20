@@ -1,0 +1,17 @@
+{
+  "name": "00-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "del-cli build && del-cli test/build",
+    "clean:test": "del-cli build",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "build:test": "tsc -p test",
+    "test": "npm run clean:test && npm run build && npm run build:test && ava --serial \"test/build/**/*Spec.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
