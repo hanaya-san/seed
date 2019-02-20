@@ -1,0 +1,20 @@
+version: '3'
+services:
+
+  mysql-ct:
+    image: mysql:5.7
+    container_name: mysql-ct
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+
+  dynamodb-ct:
+    image: amazon/dynamodb-local
+    container_name: dynamodb-ct
+    ports:
+      - 8000:8000
+    environment:
+      DYNAMOB_ROOT_PASSWORD: root
+
+

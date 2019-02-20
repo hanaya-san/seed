@@ -1,0 +1,41 @@
+{
+  "name": "kanap",
+  "version": "1.0.0",
+  "description": "kanap-dynamodb",
+  "main": "build/index.js",
+  "scripts": {
+    "clean": "del-cli build",
+    "clean:test": "del-cli test/build",
+    "prebuild": "npm run clean",
+    "lint": "tslint 'src/*.ts'",
+    "lint:test": "tslint 'test/**/*.ts'",
+    "build": "npm run lint && tsc",
+    "build:test": "tsc -p test",
+    "start": "npm run clean && npm run build && node build/index.js",
+    "test": "npm run clean:test && npm run build && npm run build:test && nyc ava --serial \"test/build/**/*Spec.js\" && nyc report --reporter=html",
+    "debug": "node inspect build/index.js"
+  },
+  "bin": {
+    "": "build/index.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "license": "ISC",
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@types/node": "^10.12.19",
+    "del-cli": "^1.1.0",
+    "nyc": "^13.2.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "ava": "^1.2.1",
+    "tslint": "^5.12.1"
+  }
+}
