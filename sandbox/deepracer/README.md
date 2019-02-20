@@ -6,22 +6,17 @@
 - アーキテクチャ
 - 開発フロー
 ### 使用するAWSサービス
-#### 認証情報管理
-- AWS IAM
-#### ストレージ
-- Amazon S3
-#### サーバーレスコンピューティング
-- AWS Lambda
-#### AWSリソースのテンプレート化
-- AWS CloudFormation
-#### 機械学習
-- Amazon SageMaker
-#### ロボットアプリケーション
-- Amazon RoboMaker
-#### ストリーミングデータ用プラットフォーム
-- Amazon Kinesis
-#### リソースモニタリング
-- Amazon CloudWatch
+| サービス名 | 概要 | 詳細リンク |
+|:---|:---|:---|
+|AWS IAM |認証情報管理 |準備中 |
+|Amazon S3 |ストレージ |準備中 |
+|AWS Lambda |サーバーレスコンピューティング |準備中 |
+|AWS CloudFormation |AWSリソースのテンプレート化 |準備中 |
+|Amazon SageMaker |機械学習 |準備中 |
+|Amazon RoboMaker |ロボットアプリケーション |準備中 |
+|Amazon Kinesis |ストリーミングデータ用プラットフォーム |準備中 |
+|Amazon CloudWatch |リソースモニタリング |準備中 |
+
 ## 料金体系
 ### 基本情報
 - 無料枠について
