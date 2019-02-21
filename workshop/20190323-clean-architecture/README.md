@@ -22,6 +22,8 @@ UI非依存：UIは，システムのほかの部分を変更することなく�
 - [ドメイン駆動設計で実装を始めるのに一番とっつきやすいアーキテクチャは何か\[DDD\] \- little hands' lab](https://little-hands.hatenablog.com/entry/2017/10/04/231743)
 - [実装クリーンアーキテクチャ \- Qiita](https://qiita.com/nrslib/items/a5f902c4defc83bd46b8)
 - [持続可能な開発を目指す ~ ドメイン・ユースケース駆動（クリーンアーキテクチャ） \+ 単方向に制限した処理 \+ FRP \- Qiita](https://qiita.com/kondei/items/41c28674c1bfd4156186)
+- [クリーンアーキテクチャの書籍を読んだのでAPIサーバを実装してみた \- Qiita](https://qiita.com/yoshinori_hisakawa/items/f934178d4bd476c8da32)
+
 
 ## sample ソース
 
