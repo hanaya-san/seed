@@ -59,13 +59,13 @@
 ### ソフトウェアアーキテクチャ
 ![software-architecture](https://github.com/hanaya-san/seed/blob/images/sandbox/deepracer/img/deepracer-software-architecture.jpg)
 
-    - クリーンアーキテクチャーを採用したい
-        - 概要: [クリーンアーキテクチャ\(The Clean Architecture翻訳\) \| blog\.tai2\.net](https://blog.tai2.net/the_clean_architecture.html)
-            - ワークショップでも勉強&共有予定
-        - 理由:
-            - イケてる＆実践的
-                - (過去の偉人たちが失敗と成功を積み上げてきたものの集大成とも呼べそうなアーキテクチャー。今後も使える)
-            - 学習コストがかかるが、その分設計力がかなり上がるはず
+### クリーンアーキテクチャーを採用したい
+    - 概要: [クリーンアーキテクチャ\(The Clean Architecture翻訳\) \| blog\.tai2\.net](https://blog.tai2.net/the_clean_architecture.html)
+        - ワークショップでも勉強&共有予定
+    - 理由:
+        - イケてる＆実践的
+            - (過去の偉人たちが失敗と成功を積み上げてきたものの集大成とも呼べそうなアーキテクチャー。今後も使える)
+        - 学習コストがかかるが、その分設計力がかなり上がるはず
 - 開発フロー
     - 基本Githubフローでいきたい
     - TODO: 以下は話し合って決めたい
