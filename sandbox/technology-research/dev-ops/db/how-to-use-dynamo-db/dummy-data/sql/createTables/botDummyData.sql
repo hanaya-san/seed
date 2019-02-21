@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS botDummyData;
+CREATE TABLE botDummyData (
+	`id` INT(11) NOT NULL,
+	`sex` INT(11) NOT NULL,
+	`botName` TEXT NOT NULL,
+	PRIMARY KEY(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
