@@ -52,7 +52,13 @@
 ---
 
 ## 開発手法・環境
-- アーキテクチャ
+- アーキテクチャ  
+### クラウドアーキテクチャ
+![cloud-architecture](https://github.com/hanaya-san/seed/blob/images/sandbox/deepracer/img/aws-deepracer-console.jpg)
+
+### ソフトウェアアーキテクチャ
+![software-architecture](https://github.com/hanaya-san/seed/blob/images/sandbox/deepracer/img/deepracer-software-architecture.jpg)
+
     - クリーンアーキテクチャーを採用したい
         - 概要: [クリーンアーキテクチャ\(The Clean Architecture翻訳\) \| blog\.tai2\.net](https://blog.tai2.net/the_clean_architecture.html)
             - ワークショップでも勉強&共有予定
