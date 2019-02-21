@@ -54,7 +54,7 @@
 ## 開発手法・環境
 - アーキテクチャ  
 ### クラウドアーキテクチャ
-![cloud-architecture](https://github.com/hanaya-san/seed/blob/images/sandbox/deepracer/img/aws-deepracer-console.jpg)
+![cloud-architecture](https://github.com/hanaya-san/seed/blob/images/sandbox/deepracer/img/deepracer-training-service-architecture.jpg)
 
 ### ソフトウェアアーキテクチャ
 ![software-architecture](https://github.com/hanaya-san/seed/blob/images/sandbox/deepracer/img/deepracer-software-architecture.jpg)
