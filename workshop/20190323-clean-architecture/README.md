@@ -1,6 +1,11 @@
 
 # クリーンアーキテクチャー
 
+## ワークショップのゴール
+
+- クリーンアーキテクチャーの概要がわかる
+- 具体的な実装イメージが湧く
+
 ## 何が嬉しいのか
 
 ```
@@ -18,7 +23,7 @@ UI非依存：UIは，システムのほかの部分を変更することなく�
 - [実装クリーンアーキテクチャ \- Qiita](https://qiita.com/nrslib/items/a5f902c4defc83bd46b8)
 - [持続可能な開発を目指す ~ ドメイン・ユースケース駆動（クリーンアーキテクチャ） \+ 単方向に制限した処理 \+ FRP \- Qiita](https://qiita.com/kondei/items/41c28674c1bfd4156186)
 
-## sampleの実行
+## sample ソース
 
 - 勉強のため[リファクタリングして学ぶTypeScriptでクリーンアーキテクチャ \- Qiita](https://qiita.com/kotauchisunsun/items/ec6b4086abe670c478fe)よりコピペ
 
