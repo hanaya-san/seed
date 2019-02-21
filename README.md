@@ -1,8 +1,6 @@
 # seed
 
-<div align="center">
-<img src=https://github.com/hanaya-san/seed/blob/image/image/seed.jpg?raw=true "seed image">
-</div>
+![seed image](https://github.com/hanaya-san/seed/blob/image/image/seed.jpg?raw=true)
 
 技術のタネを保管する場所。
 
