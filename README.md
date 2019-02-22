@@ -1,5 +1,7 @@
 # seed
 
+![seed image](https://github.com/hanaya-san/seed/blob/image/image/seed.jpg?raw=true)
+
 技術のタネを保管する場所。
 
 ここの調査結果やサンプルが今後プロジェクトとして生まれ変わったり、応用されることを期待する。
