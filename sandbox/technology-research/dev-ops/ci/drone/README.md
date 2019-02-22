@@ -17,3 +17,5 @@
 
 - [droneの導入にハマった \- Qiita](https://qiita.com/miyacomaru/items/80c908e3bd2f28677daf)
 
+- [LINE STOREにおけるテスト自動化の取り組み \- LINE ENGINEERING](https://engineering.linecorp.com/ja/blog/detail/219/)
+
