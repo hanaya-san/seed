@@ -46,15 +46,6 @@ class TaxCalculateUseCase(ITaxCalculateUseCase):
         taxPrice = taxEntity.calcTaxPrice(price)
         return TaxCalculateUseCaseOutputData(taxPrice)
 
-# rl.on('line', (input: string) => {
-#     const useCase = new TaxCalculateUseCase();
-#     const price = Number(input);
-#     const inputData = new TaxCalculateUseCaseInputData(price);
-#     const outputData = useCase.calcTaxPrice(inputData);
-#     const taxPrice = outputData.price;
-#     console.log(`税込価格:${taxPrice}`);
-# });
-
 for line in iter(sys.stdin.readline, ""):
     useCase = TaxCalculateUseCase()
     price = int(line)
