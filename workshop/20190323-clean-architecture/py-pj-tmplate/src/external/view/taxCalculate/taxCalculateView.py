@@ -1,6 +1,5 @@
-from useCase import *
-from useCase.taxCalculate import *
 from external.view.taxCalculate import *
+from usecase.taxCalculate import *
 
 class TaxCalculateView(ITaxCalculateView):
     def display(self, outputData: TaxCalculateUseCaseOutputData):
