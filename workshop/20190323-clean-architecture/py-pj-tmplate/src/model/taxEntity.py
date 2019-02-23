@@ -1,4 +1,3 @@
-
 class TaxEntity:
     __taxRate = 0.08
 
