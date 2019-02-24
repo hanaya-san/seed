@@ -154,16 +154,16 @@
 
 ### 使用するAWSサービス
 
-| サービス名 | 概要 | 詳細リンク |
-|:---|:---|:---|
-|AWS IAM |認証情報管理 |準備中 |
-|Amazon S3 |ストレージ |準備中 |
-|AWS Lambda |サーバーレスコンピューティング |準備中 |
-|AWS CloudFormation |AWSリソースのテンプレート化 |準備中 |
-|Amazon SageMaker |機械学習 |準備中 |
-|Amazon RoboMaker |ロボットアプリケーション |準備中 |
-|Amazon Kinesis |ストリーミングデータ用プラットフォーム |準備中 |
-|Amazon CloudWatch |リソースモニタリング |準備中 |
+| サービス名         | 概要                                   | 詳細リンク | 担当   |
+|:-------------------|:---------------------------------------|:-----------|:-------|
+| AWS IAM            | 認証情報管理                           | 準備中     | 全員   |
+| Amazon S3          | ストレージ                             | 準備中     | 全員   |
+| AWS Lambda         | サーバーレスコンピューティング         | 準備中     | Hanaya |
+| AWS CloudFormation | AWSリソースのテンプレート化            | 準備中     | Hanaya |
+| Amazon SageMaker   | 機械学習                               | 準備中     | rothr4 |
+| Amazon RoboMaker   | ロボットアプリケーション               | 準備中     | rothr4 |
+| Amazon Kinesis     | ストリーミングデータ用プラットフォーム | 準備中     | rothr4 |
+| Amazon CloudWatch  | リソースモニタリング                   | 準備中     | Hanaya |
 
 ### 料金体系
 
