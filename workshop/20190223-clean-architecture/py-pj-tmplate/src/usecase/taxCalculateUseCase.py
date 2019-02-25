@@ -1,5 +1,6 @@
-from usecase import *
+from usecase.iTaxCalculateUseCase import ITaxCalculateUseCase
 from usecase.taxCalculate import *
+from model import *
 
 class TaxCalculateUseCase(ITaxCalculateUseCase):
     def calcTaxPrice(self, inputData: TaxCalculateUseCaseInputData):
