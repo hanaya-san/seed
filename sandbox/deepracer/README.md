@@ -175,7 +175,7 @@
 - Amazon S3
 - AWS Lambda
 - AWS CloudFormation
-- Amazon SageMaker
+- [Amazon SageMaker](https://github.com/hanaya-san/seed/blob/feat/research-deepracer/sandbox/deepracer/doc/sage_maker.md)
 - Amazon RoboMaker
 - Amazon Kinesis
 - Amazon CloudWatch
