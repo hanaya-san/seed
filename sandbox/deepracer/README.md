@@ -160,7 +160,7 @@
 | Amazon S3          | ストレージ                             | 準備中     | 全員   |
 | AWS Lambda         | サーバーレスコンピューティング         | 準備中     | Hanaya |
 | AWS CloudFormation | AWSリソースのテンプレート化            | 準備中     | Hanaya |
-| Amazon SageMaker   | 機械学習                               | 準備中     | rothr4 |
+| Amazon SageMaker   | 機械学習                               | [こちら](https://github.com/hanaya-san/seed/blob/feat/research-deepracer/sandbox/deepracer/doc/sage_maker.md)     | rothr4 |
 | Amazon RoboMaker   | ロボットアプリケーション               | 準備中     | rothr4 |
 | Amazon Kinesis     | ストリーミングデータ用プラットフォーム | 準備中     | rothr4 |
 | Amazon CloudWatch  | リソースモニタリング                   | 準備中     | Hanaya |
