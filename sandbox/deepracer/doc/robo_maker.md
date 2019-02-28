@@ -6,7 +6,7 @@
 
 ## 開始方法
 - Amazon公式サイトに日本語のドキュメントを発見したのでこちらを参照
-  - [AWS SageMaker - 仕組み](https://docs.aws.amazon.com/ja_jp/robomaker/latest/dg/how-it-works.html)
+  - [AWS RoboMaker - 仕組み](https://docs.aws.amazon.com/ja_jp/robomaker/latest/dg/how-it-works.html)
   - [AWS RoboMaker - 開始方法](https://docs.aws.amazon.com/ja_jp/robomaker/latest/dg/getting-started.html)
 
 ### トピック一覧
