@@ -7,7 +7,7 @@
 ## 開始方法
 - Amazon公式サイトに日本語のドキュメントを発見したのでこちらを参照
   - [Amazon SageMaker - 仕組み](https://docs.aws.amazon.com/ja_jp/sagemaker/latest/dg/how-it-works.html)
-  - [Amazon SageMaker - 開発者ガイド](https://docs.aws.amazon.com/ja_jp/sagemaker/latest/dg/gs.html)
+  - [Amazon SageMaker - 開始方法](https://docs.aws.amazon.com/ja_jp/sagemaker/latest/dg/gs.html)
 
 - GUI設定・操作の分かりやすい記事
   - [【初心者向け】Amazon SageMakerではじめる機械学習 ](https://dev.classmethod.jp/machine-learning/getting-started-with-amazon-sagemaker/)
