@@ -17,3 +17,5 @@ vue init webpack tutorial_vuejs_todo_management
 
 - [vue init webpack tutorial\_vuejs\_todo\_management](https://qiita.com/sin_tanaka/items/29769266b3b078ea0f7c)
 
+- https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd/related?utm_source=chrome-ntp-icon
+
