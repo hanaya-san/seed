@@ -1,6 +1,8 @@
+import os
+
 head_common = 'https://hooks.slack.com/services/'
 
 room_dict = {
-    '_random': 'TGA8YRZRP/BLTHDFGUU/EzNy4CENzygZIKMM6ZQmwQYm',
-    'rykura': 'TGA8YRZRP/BLVTPJEEB/nVRBwF5DzqBRxc8t7bGfLOwP',
+    '_random': os.environ['SLACK_R_RANDOM'],
+    'rykura': os.environ['SLACK_RRYKURA'],
 }
