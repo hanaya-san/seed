@@ -1,4 +1,4 @@
-import sys, requests, json
+import sys, requests
 from setting import load_setting
 from generate import json_package
 
