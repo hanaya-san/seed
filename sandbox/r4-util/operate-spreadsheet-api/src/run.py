@@ -1,33 +1,26 @@
-import os
-from apiclient.discovery import build
-from httplib2 import Http
-import numpy as np
 import pandas as pd
+from spreadsheets_util import accessor
+from spreadsheets_util import conf
 
-from oauth2.credentials import get_credentials
+
+def get_target_range(uid=0):
+    target_cell_name = u'{}!{}'.format(
+        conf.SHEET_NAME[uid],
+        conf.RANGE_NAME
+    )
+
+    return target_cell_name
 
 
-SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
-SPREADSHEET_ID = os.environ['SPSHEET_URL_HOME']
-SHEET_NAME = '' # Please setting
-RANGE_NAME = '' # Please setting
+def main():
 
-TARGET_CELL_NAME = u'%s!%s'%(SHEET_NAME, RANGE_NAME)
-
-creds = get_credentials(SCOPES)
-service = build('sheets', 'v4', http=creds.authorize(Http()))
-
-result = service.spreadsheets().values() \
-    .get(spreadsheetId=SPREADSHEET_ID,
-         range=TARGET_CELL_NAME
-         ).execute()
-values = result.get('values', [])
-
-df = pd.DataFrame(values,
-                  index=np.arange(31),
-                  columns=['日', '曜日', '区分', '出社', '退社'])
-
-if not values:
-    pass
-else:
+    controller = accessor.SpreadSheetsAccessor(conf.SCOPES)
+    home_range_lst = controller.get_sheets(conf.SPREADSHEET_HOME_ID,
+                                           get_target_range(0))
+    df = pd.DataFrame(home_range_lst[1:],
+                      columns=home_range_lst[0])
     print(df)
+
+
+if __name__ == '__main__':
+    main()
