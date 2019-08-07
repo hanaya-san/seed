@@ -10,10 +10,11 @@ class SpreadSheetsAccessor:
 
 
     def get_sheets(self, sheet_id, range_name):
-        sheets = build('sheets',
-                       'v4',
-                       http=self.creds.authorize(Http())
-                       ).spreadsheets()
+        sheets = build(
+            'sheets',
+            'v4',
+            http=self.creds.authorize(Http())
+        ).spreadsheets()
         values = sheets.values()
         result = values.get(
             spreadsheetId=sheet_id,
